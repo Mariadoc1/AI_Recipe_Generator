@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Baking Recipe Generator</title>
   </head>
   <body>
@@ -19,7 +20,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="recipe-generator-form">
           <input
             type="text"
             class="search-form"
@@ -31,13 +32,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="recipe">
-          The recipe will go here
-          <br />
-          The recipe will go here
-          <br />
-          The recipe will go here
-        </div>
+        <div class="recipe" id="recipe"></div>
       </main>
 
       <footer>
