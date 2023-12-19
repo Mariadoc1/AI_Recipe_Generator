@@ -3,47 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>AI Baking Recipe Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Baking Recipe Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Baking Recipe Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          id=""
-          placeholder="What would you like to bake?"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div id="">
-        The recipe will go here
-        <br />
-        The recipe will go here
-        <br />
-        The recipe will go here
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            class="search-form"
+            id=""
+            placeholder="What would you like to bake?"
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recipe">
+          The recipe will go here
+          <br />
+          The recipe will go here
+          <br />
+          The recipe will go here
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Mariadoc1" target="_blank">Maria Docherty</a>
-      and is open-sourced on
-      <a
-        href="https://github.com/Mariadoc1/AI_Recipe_Generator"
-        target="_blank"
-      >
-        Github.</a
-      >
-      It is hosted on
-      <a href="https://project-ai-generator.netlify.app/">Netlify.</a>
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Mariadoc1" target="_blank"
+          >Maria Docherty</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/Mariadoc1/AI_Recipe_Generator"
+          target="_blank"
+        >
+          Github.</a
+        >
+        It is hosted on
+        <a href="https://project-ai-generator.netlify.app/">Netlify.</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
