@@ -25,7 +25,7 @@ form {
 }
 
 a {
-  color: #c9184a;
+  color: #dc7f9b;
   text-decoration: none;
 }
 
@@ -55,6 +55,11 @@ a {
   width: 100px;
 }
 
+.examples {
+  margin: 0;
+  padding: 0;
+}
+
 .recipe {
   font-size: 16px;
   background-color: #ffeef2;
@@ -63,6 +68,10 @@ a {
   border-left: 3px solid #c9184a;
 
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+
+.recipe strong {
+  color: #c9184a;
 }
 
 footer {
